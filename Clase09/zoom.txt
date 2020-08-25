@@ -1,0 +1,39 @@
+CLASE 09
+digitos 1234 10
+caso base mod 1234 10
+4
+mod 123 10
+3
+mod 12 10
+2
+mod 1 10
+1
+mod 0 10
+0
+los nros en cada slot de la lista nunca pueden superar
+a la base, son restos
+
+digitos 1234 5
+mod 1234 5 = 4
+div 1234 5 = 246
+mod 246 5 = 1
+div 246 5 =49
+mod 49 5 = 4
+div 49 5 = 9
+mod 9 5 = 4
+div 9 5 = 1
+mod 1 5 = 1
+div 0 5 = 0 (caso base)
+
+emcd(|a|:|b|) = (s,t,d)
+s|a|+t|b| = d
+separo los casos segun signos de a y b
+++/+-/-+/--
+emcd(8:12) = 4
+(-1).8+1.12 = 4
+emcd(8:12) = 4
+[(-1).(-1)].(-8)+1.12 = 4
+Algoritmo mcd escolar
+1) Hacer una lista de factores a y b
+2) Intersecar listas
+3) Tomar maximo de lista
